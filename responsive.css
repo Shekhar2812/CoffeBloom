@@ -1,0 +1,141 @@
+@media(max-width:768px){
+    
+    .home{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+     }
+     
+.menu{
+    margin-top: 2rem;
+}
+    #menu-btn{
+        display: initial;
+        font-size: 1.5rem;
+        color: rgb(0, 0, 0);
+    }
+
+    #menu-btn.fa-times{
+        transform:rotate(180deg);
+    }   
+    .header .navbar{
+        position: absolute;
+        top:99%; left:0; right:0;
+        background:#fff;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    .header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .header .navbar a{
+        display: block;
+        font-size: 1.2rem;
+        margin:0;
+        color: black;
+        text-decoration: none;
+              padding:7px 2rem;
+    }
+    .header #name {
+       /* text-align: end;  */
+        /* margin-top: 1rem; */
+        margin-left: 8rem;
+        
+            }
+    .header .logo{
+       
+        margin-left: 5rem;
+        font-size: 2rem;
+         }
+  
+    section{
+        padding: 1px;
+    
+    }
+    .home{
+       min-height: 90vh;
+        width: 100%;
+    }
+    .home .row .image{
+        flex: 0 0 10rem;
+    }
+    .home .row .content h1{
+        font-size: 1.5rem;
+    
+      
+        text-transform: uppercase;
+    }
+    .menu .box-container{
+       
+        gap: 1rem;
+        box-sizing: border-box;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr))
+    }
+    
+.menu h1{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+ 
+}
+.about h1{
+    font-size: 2rem;
+    padding: 1rem;
+  
+}
+.contact h1{
+    font-size: 2rem;
+    padding: 1rem;
+ 
+}
+.about{
+    margin: 1rem;
+    
+    border: 1px solid rgb(0, 0, 0);
+}
+.about .row2{
+    align-items: center;
+    display: block;
+    /* flex-wrap: wrap; */
+    /* gap: 1rem; */
+}
+.about .row2 .image{
+    /* width: 100%; */
+    /* float: center; */
+margin:  auto auto ;
+}
+.about .row2 .image img{
+    width: 100%;
+    padding: 1rem;
+    
+}
+
+.about .row2 .content{
+margin-top: 1rem;
+    font-size: 1rem;
+}
+.about .row2 .content  p:hover{
+    cursor: pointer;
+    padding: 1rem;
+
+} 
+.about .row2 .content p{
+    padding: 1rem;
+}
+.footer .foot-box{
+    gap: 1.1rem;
+   margin-left: 2.7rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1rem));  
+}
+.footer .foot-box .fbox h3{
+    font-size: 12px;
+}
+.footer .foot-box .fbox a{
+    font-size: 10px;
+    padding: 5px 0;
+}
+.contact{
+    width: 100%;
+    margin: auto;
+}
+}
